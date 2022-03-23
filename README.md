@@ -12,9 +12,12 @@ The following step is to validate if the working hours of a pair of employees in
 Finally, it is applied that if the initial hour from an employee was in the range of the initial and end hour from the second employee or vice versa then the schedule of those two employees intersects in that specific day.
 
 
-
 ## Methodology
-Based on the input
+Based on the input it is needed to sort the data into a list that contains the information of an employee in each specific element and then compare to each other without repeating the employees, this means to find all the possible combinations but NOT the permutations.
+For example: 'Hugo - Rene' combination is the same as 'Rene - Hugo' since both reffer to the same employees.
+After analyzing the distribution of the data it is consluded that in order to obtain all the possible combinations without repeating an iteration from left to right needs to be done but with the restriction of comparing each elements only with the elements that are in the same direction of the iteration order, in this case the ones at the right side. 
+Once the combinations are obtained we can identify the structure of each element from the list, shown as follows:
+'Name=Day1InitHour1-EndHour1, Day2InitHour2-EndHour2, ..., DaynInitHourn-EndHourn'
 
 
 ## To run the code
