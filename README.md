@@ -19,10 +19,10 @@ For example: 'Hugo - Rene' combination is the same as 'Rene - Hugo' since both r
 After analyzing the distribution of the data, it is concluded that to obtain all the possible combinations without repeating an iteration from left to right needs to be done but with the restriction of comparing each element only with the elements that are in the same direction of the iteration order, in this case the ones at the right side. 
 
 Once the combinations are obtained, we can identify the structure of each element from the list, shown as follows:
-'Name=Day(1)InitHour(1)-EndHour(1), Day(2)InitHour(2)-EndHour(2), ..., Day(n)InitHour(n)-EndHour(n)'
+- 'Name=Day(1)InitHour(1)-EndHour(1), Day(2)InitHour(2)-EndHour(2), ..., Day(n)InitHour(n)-EndHour(n)'
 
 where InitHour is divides in minutes as shown:
-InitHour = 'Hours:Minutes'
+- InitHour = 'Hours:Minutes'
 
 So, it is visible that: 
 - The name and the schedule are separated with '='
