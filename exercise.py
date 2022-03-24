@@ -1,7 +1,6 @@
 with open('schedule.txt') as file:
     l_employees = file.readlines()
     l_employees = [emp.strip() for emp in l_employees]
-    print(l_employees)
 
 
 for i in range(len(l_employees)):
